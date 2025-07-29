@@ -1,0 +1,5 @@
+type: web
+name: flask-contract-generator
+runtime: python
+buildCommand: "pip install -r requirements.txt"
+startCommand: "gunicorn docapp2:app"
